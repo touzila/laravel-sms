@@ -1,0 +1,23 @@
+{
+    "name": "vendor/touzila-laravel-sms",
+    "description": "",
+    "authors": [
+        {
+            "name": "touzila",
+            "email": "touzila@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Vendor\\TouzilaLaravelSms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
